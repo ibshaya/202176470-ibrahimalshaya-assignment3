@@ -1,8 +1,6 @@
 # AI Usage Report — Assignment 2
 
-**Student:** Ibrahim Alshaya  
-**Course:** Software Engineering — Portfolio Assignment 2  
-**AI Tool Used:** Claude (claude.ai by Anthropic)
+
 
 ---
 
@@ -54,8 +52,7 @@ I used Claude as an AI assistant throughout this assignment, primarily for code 
 
 ## Reflection
 
-Using AI as a coding assistant is genuinely powerful — it helped me move faster and showed me patterns I hadn't seen before (like using `data-*` attributes for filters). However, I found that the most important step was always *reading the code carefully* before using it. Several times I caught issues (like missing accessibility attributes, or fallback logic that didn't handle edge cases) that I fixed myself. AI tools work best when you treat them like a knowledgeable collaborator, not an answer machine.
-
+Using AI as a coding assistant is genuinely powerful. it helped me move faster and showed me patterns I hadn't seen before (like using `data-*` attributes for filters). However, I found that the most important step was always *reading the code carefully* before using it. Several times I caught issues (like missing accessibility attributes, or fallback logic that didn't handle edge cases) that I fixed myself. 
 ---
 
 ## Tools Not Used
