@@ -2,13 +2,13 @@
 
 A personal portfolio website built with HTML, CSS, and vanilla JavaScript, enhanced with interactive features, API integration, and modern UX for Assignment 2.
 
-## 🌐 Live Demo
+## Live Demo
 
 > Deploy to GitHub Pages, Netlify, or Vercel — see Setup below.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 assignment-2/
@@ -27,7 +27,7 @@ assignment-2/
 
 ---
 
-## ✨ Features Added in Assignment 2
+## Features Added in Assignment 2
 
 | Feature | Category | Description |
 |---|---|---|
@@ -44,7 +44,7 @@ assignment-2/
 
 ---
 
-## 🚀 Setup — Run Locally
+## Setup — Run Locally
 
 1. **Clone or download** the repository:
    ```bash
@@ -69,7 +69,7 @@ assignment-2/
 
 ---
 
-## 🤖 AI Usage Summary
+## AI Usage Summary
 
 Claude (claude.ai) was used to assist with:
 - Generating the initial enhanced code structure as a starting point
@@ -80,7 +80,7 @@ All AI-generated code was reviewed, understood, and customized. See **`docs/ai-u
 
 ---
 
-## 🌍 Deploy to GitHub Pages
+## Deploy to GitHub Pages
 
 1. Push the repo to GitHub.
 2. Go to **Settings → Pages**.
