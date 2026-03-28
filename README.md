@@ -4,7 +4,7 @@ A personal portfolio website built with HTML, CSS, and vanilla JavaScript, enhan
 
 ## Live Demo
 
-> Deploy to GitHub Pages, Netlify, or Vercel — see Setup below.
+> [Deploy to GitHub Pages, Netlify, or Vercel — see Setup below.](https://celebrated-rugelach-3705ca.netlify.app/)
 
 ---
 
