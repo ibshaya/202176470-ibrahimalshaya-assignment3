@@ -48,20 +48,6 @@
       </div>
     </nav>
 
-    <!-- Difficulty Level Selector -->
-    <div class="difficulty-banner">
-      <div class="container">
-        <div class="difficulty-selector">
-          <label for="difficulty-select">Choose your level:</label>
-          <select id="difficulty-select" class="difficulty-select">
-            <option value="all">All Projects</option>
-            <option value="beginner">Beginner</option>
-            <option value="advanced">Advanced</option>
-          </select>
-        </div>
-      </div>
-    </div>
-
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-bg-grid"></div>
@@ -280,6 +266,14 @@
             <select id="project-sort" class="sort-select">
               <option value="name-asc">Name (A-Z)</option>
               <option value="name-desc">Name (Z-A)</option>
+            </select>
+          </div>
+          <div class="difficulty-wrapper">
+            <label for="difficulty-select">Level:</label>
+            <select id="difficulty-select" class="difficulty-select">
+              <option value="all">All Projects</option>
+              <option value="beginner">Beginner</option>
+              <option value="advanced">Advanced</option>
             </select>
           </div>
         </div>
