@@ -6,7 +6,7 @@ This is Assignment 3, building on previous assignments with GitHub API integrati
 
 ## Live Demo
 
-> [Coming soon - Deploy link to be added after GitHub Pages setup]
+> [https://ibrahimalshaya.netlify.app/]
 
 ---
 
@@ -226,12 +226,6 @@ See Lighthouse report notes in technical documentation.
 
 ---
 
-## Submission
-
-- Repository: [https://github.com/ibshaya/202176470-ibrahimalshaya-assignment3](https://github.com/ibshaya/202176470-ibrahimalshaya-assignment3)
-- Assignment: Assignment 3
-- Due: Week 13
-- Weight: 2%
 
 ---
 
@@ -244,11 +238,3 @@ For inquiries or feedback:
 
 ---
 
-## License
-
-This project is provided as-is for educational purposes.
-
-1. Push the repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Set source to **main branch / root**.
-4. Your site will be live at `https://YOUR-USERNAME.github.io/REPO-NAME/`.
