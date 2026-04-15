@@ -207,9 +207,32 @@ document.querySelectorAll('.accordion-header').forEach(btn => {
 const searchInput  = document.getElementById('project-search');
 const searchClear  = document.getElementById('search-clear');
 const filterTabs   = document.querySelectorAll('.filter-tab');
+const sortSelect   = document.getElementById('project-sort');
 const noResults    = document.getElementById('no-results');
 const resetFilters = document.getElementById('reset-filters');
-let   activeFilter = 'all';
+let activeFilter = 'all';
+let activeSort = 'name-asc';
+
+function sortProjectCards(cards) {
+    const cardsArray = Array.from(cards).filter(card => !card.classList.contains('hidden'));
+    
+    cardsArray.sort((a, b) => {
+        const titleA = a.dataset.title.toLowerCase();
+        const titleB = b.dataset.title.toLowerCase();
+        
+        if (activeSort === 'name-asc') {
+            return titleA.localeCompare(titleB);
+        } else if (activeSort === 'name-desc') {
+            return titleB.localeCompare(titleA);
+        }
+        return 0;
+    });
+    
+    const grid = document.getElementById('projects-grid');
+    cardsArray.forEach(card => {
+        grid.appendChild(card);
+    });
+}
 
 function filterProjects() {
     const query = searchInput.value.toLowerCase().trim();
@@ -230,6 +253,7 @@ function filterProjects() {
         }
     });
 
+    sortProjectCards(cards);
     noResults.style.display = visible === 0 ? 'block' : 'none';
     searchClear.style.display = query ? 'inline-block' : 'none';
 }
@@ -240,6 +264,11 @@ searchClear.addEventListener('click', () => {
     searchInput.value = '';
     filterProjects();
     searchInput.focus();
+});
+
+sortSelect?.addEventListener('change', (e) => {
+    activeSort = e.target.value;
+    filterProjects();
 });
 
 filterTabs.forEach(tab => {
@@ -258,8 +287,10 @@ filterTabs.forEach(tab => {
 resetFilters?.addEventListener('click', () => {
     searchInput.value = '';
     activeFilter = 'all';
+    activeSort = 'name-asc';
     filterTabs.forEach(t => t.classList.remove('active'));
     document.querySelector('[data-filter="all"]').classList.add('active');
+    if (sortSelect) sortSelect.value = 'name-asc';
     filterProjects();
 });
 
