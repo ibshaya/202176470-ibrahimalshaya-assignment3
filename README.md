@@ -6,7 +6,7 @@ This is Assignment 3, building on previous assignments with GitHub API integrati
 
 ## Live Demo
 
-> [Coming soon - Deploy link to be added after GitHub Pages setup]
+> [https://ibrahimalshaya.netlify.app/]
 
 ---
 
