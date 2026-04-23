@@ -1,7 +1,7 @@
-# Technical Documentation - Assignment 4
+# Technical Documentation - Assignment 3
 
 **Project:** Ibrahim Alshaya Personal Portfolio
-**Version:** 3.0 (Assignment 4)
+**Version:** 3.0 (Assignment 3)
 **Stack:** HTML5, CSS3, Vanilla JavaScript (ES6+)
 **Build System:** None (static site)
 
@@ -70,7 +70,7 @@ Script is organized into 18 numbered sections for clarity:
 
 ---
 
-## NEW: Assignment 4 Features
+## NEW: Assignment 3 Features
 
 ### 16. Section Toggle (Show/Hide)
 **Feature:** Users can show/hide Skills and Experience sections with persistent state.
