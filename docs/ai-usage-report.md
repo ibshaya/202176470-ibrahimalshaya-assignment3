@@ -1,10 +1,10 @@
-# AI Usage Report - Assignment 4
+# AI Usage Report - Assignment 3
 
 ---
 
 ## Overview
 
-Claude and GitHub Copilot were used as development assistants throughout Assignment 4 to accelerate development while maintaining code understanding and quality. All AI-generated code was carefully reviewed, tested, and modified to fit specific requirements and maintain consistency with existing codebase.
+Claude and GitHub Copilot were used as development assistants throughout Assignment 3 to accelerate development while maintaining code understanding and quality. All AI-generated code was carefully reviewed, tested, and modified to fit specific requirements and maintain consistency with existing codebase.
 
 ---
 
@@ -196,6 +196,6 @@ Claude and GitHub Copilot were used as development assistants throughout Assignm
 
 ## Conclusion
 
-AI tools significantly accelerated Assignment 4 development while maintaining high code quality and understanding. The key was treating AI as an assistant for patterns and boilerplate rather than a complete solution provider. Every piece of code was reviewed, tested, and customized to meet specific requirements and maintain consistency with the existing codebase.
+AI tools significantly accelerated Assignment 3 development while maintaining high code quality and understanding. The key was treating AI as an assistant for patterns and boilerplate rather than a complete solution provider. Every piece of code was reviewed, tested, and customized to meet specific requirements and maintain consistency with the existing codebase.
 
 The experience reinforced that AI is most effective when combined with critical thinking, thorough testing, and a deep understanding of project requirements.
